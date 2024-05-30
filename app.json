@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "GreenBite - Receitas Vegetarianas",
+    "slug": "greenbite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/expo/icon.png",
+    "scheme": "mygirlfriend",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/expo/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#006437"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/expo/adaptive-icon.png",
+        "backgroundColor": "#006437"
+      },
+      "package": "com.renangoulart.mygirlfriend"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/expo/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
